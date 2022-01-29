@@ -14,8 +14,7 @@
           </q-item>
       </q-list>
           <div class="q-pa-md q-gutter-sm fixed-bottom-right" >
-    <q-btn @click="prompt = true" id="add" round color="primary" icon="add" class="q-ma-md"/>
-    
+    <q-btn @click="prompt = true" id="add" round color="primary" icon="add" class="q-ma-md"/>  
     </div>
      <q-dialog v-model="prompt" persistent>
       <q-card style="min-width: 350px">

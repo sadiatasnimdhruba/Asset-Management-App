@@ -18,6 +18,7 @@ const routes = [
       { path: '/Mark-defective', component: () => import('pages/Mark-defective.vue') },
       { path: '/Navigation', component: () => import('pages/Navigation.vue') },
       { path: '/User-equipments', component: () => import('pages/User-equipments.vue') },
+      { path: '/Add-equipment', component: () => import('pages/Add-equipment.vue') },
       { path: '/Users', component: () => import('pages/Users.vue') }
     ]
   },
